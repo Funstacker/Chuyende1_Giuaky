@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4B33D01DF325540038855D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B33CF1DF325540038855D /* AppDelegate.swift */; };
+		BF4B33D21DF325540038855D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF4B33D11DF325540038855D /* GameScene.sks */; };
+		BF4B33D41DF325540038855D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B33D31DF325540038855D /* GameScene.swift */; };
+		BF4B33D61DF325540038855D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B33D51DF325540038855D /* GameViewController.swift */; };
+		BF4B33D91DF325540038855D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4B33D71DF325540038855D /* Main.storyboard */; };
+		BF4B33DB1DF325540038855D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4B33DA1DF325540038855D /* Assets.xcassets */; };
+		BF4B33DE1DF325540038855D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4B33DC1DF325540038855D /* LaunchScreen.storyboard */; };
+		BF4B33E91DF325540038855D /* TracNghiemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B33E81DF325540038855D /* TracNghiemTests.swift */; };
+		BF4B33F41DF325540038855D /* TracNghiemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B33F31DF325540038855D /* TracNghiemUITests.swift */; };
+		BF4B34091DF326110038855D /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34021DF326110038855D /* Apple.jpg */; };
+		BF4B340A1DF326110038855D /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34031DF326110038855D /* BackGround.jpg */; };
+		BF4B340B1DF326110038855D /* Blue-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34041DF326110038855D /* Blue-button.png */; };
+		BF4B340C1DF326110038855D /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34051DF326110038855D /* cat.jpeg */; };
+		BF4B340D1DF326110038855D /* checked.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34061DF326110038855D /* checked.jpeg */; };
+		BF4B340E1DF326110038855D /* Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34071DF326110038855D /* Logo.jpeg */; };
+		BF4B340F1DF326110038855D /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4B34081DF326110038855D /* unchecked.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF4B33E51DF325540038855D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4B33C41DF325540038855D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4B33CB1DF325540038855D;
+			remoteInfo = TracNghiem;
+		};
+		BF4B33F01DF325540038855D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4B33C41DF325540038855D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4B33CB1DF325540038855D;
+			remoteInfo = TracNghiem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF4B33CC1DF325540038855D /* TracNghiem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracNghiem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4B33CF1DF325540038855D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF4B33D11DF325540038855D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BF4B33D31DF325540038855D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BF4B33D51DF325540038855D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BF4B33D81DF325540038855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF4B33DA1DF325540038855D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF4B33DD1DF325540038855D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF4B33DF1DF325540038855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4B33E41DF325540038855D /* TracNghiemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracNghiemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4B33E81DF325540038855D /* TracNghiemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracNghiemTests.swift; sourceTree = "<group>"; };
+		BF4B33EA1DF325540038855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4B33EF1DF325540038855D /* TracNghiemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracNghiemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4B33F31DF325540038855D /* TracNghiemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracNghiemUITests.swift; sourceTree = "<group>"; };
+		BF4B33F51DF325540038855D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4B34021DF326110038855D /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple.jpg; sourceTree = "<group>"; };
+		BF4B34031DF326110038855D /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
+		BF4B34041DF326110038855D /* Blue-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-button.png"; sourceTree = "<group>"; };
+		BF4B34051DF326110038855D /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		BF4B34061DF326110038855D /* checked.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checked.jpeg; sourceTree = "<group>"; };
+		BF4B34071DF326110038855D /* Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpeg; sourceTree = "<group>"; };
+		BF4B34081DF326110038855D /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF4B33C91DF325540038855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4B33E11DF325540038855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4B33EC1DF325540038855D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4B33C31DF325540038855D = {
+			isa = PBXGroup;
+			children = (
+				BF4B33CE1DF325540038855D /* TracNghiem */,
+				BF4B33E71DF325540038855D /* TracNghiemTests */,
+				BF4B33F21DF325540038855D /* TracNghiemUITests */,
+				BF4B33CD1DF325540038855D /* Products */,
+				BF4B34011DF326110038855D /* SupportingImage */,
+			);
+			sourceTree = "<group>";
+		};
+		BF4B33CD1DF325540038855D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B33CC1DF325540038855D /* TracNghiem.app */,
+				BF4B33E41DF325540038855D /* TracNghiemTests.xctest */,
+				BF4B33EF1DF325540038855D /* TracNghiemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF4B33CE1DF325540038855D /* TracNghiem */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B33CF1DF325540038855D /* AppDelegate.swift */,
+				BF4B33D11DF325540038855D /* GameScene.sks */,
+				BF4B33D31DF325540038855D /* GameScene.swift */,
+				BF4B33D51DF325540038855D /* GameViewController.swift */,
+				BF4B33D71DF325540038855D /* Main.storyboard */,
+				BF4B33DA1DF325540038855D /* Assets.xcassets */,
+				BF4B33DC1DF325540038855D /* LaunchScreen.storyboard */,
+				BF4B33DF1DF325540038855D /* Info.plist */,
+			);
+			path = TracNghiem;
+			sourceTree = "<group>";
+		};
+		BF4B33E71DF325540038855D /* TracNghiemTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B33E81DF325540038855D /* TracNghiemTests.swift */,
+				BF4B33EA1DF325540038855D /* Info.plist */,
+			);
+			path = TracNghiemTests;
+			sourceTree = "<group>";
+		};
+		BF4B33F21DF325540038855D /* TracNghiemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B33F31DF325540038855D /* TracNghiemUITests.swift */,
+				BF4B33F51DF325540038855D /* Info.plist */,
+			);
+			path = TracNghiemUITests;
+			sourceTree = "<group>";
+		};
+		BF4B34011DF326110038855D /* SupportingImage */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B34021DF326110038855D /* Apple.jpg */,
+				BF4B34031DF326110038855D /* BackGround.jpg */,
+				BF4B34041DF326110038855D /* Blue-button.png */,
+				BF4B34051DF326110038855D /* cat.jpeg */,
+				BF4B34061DF326110038855D /* checked.jpeg */,
+				BF4B34071DF326110038855D /* Logo.jpeg */,
+				BF4B34081DF326110038855D /* unchecked.png */,
+			);
+			name = SupportingImage;
+			path = ../SupportingImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF4B33CB1DF325540038855D /* TracNghiem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4B33F81DF325540038855D /* Build configuration list for PBXNativeTarget "TracNghiem" */;
+			buildPhases = (
+				BF4B33C81DF325540038855D /* Sources */,
+				BF4B33C91DF325540038855D /* Frameworks */,
+				BF4B33CA1DF325540038855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TracNghiem;
+			productName = TracNghiem;
+			productReference = BF4B33CC1DF325540038855D /* TracNghiem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF4B33E31DF325540038855D /* TracNghiemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4B33FB1DF325540038855D /* Build configuration list for PBXNativeTarget "TracNghiemTests" */;
+			buildPhases = (
+				BF4B33E01DF325540038855D /* Sources */,
+				BF4B33E11DF325540038855D /* Frameworks */,
+				BF4B33E21DF325540038855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF4B33E61DF325540038855D /* PBXTargetDependency */,
+			);
+			name = TracNghiemTests;
+			productName = TracNghiemTests;
+			productReference = BF4B33E41DF325540038855D /* TracNghiemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF4B33EE1DF325540038855D /* TracNghiemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4B33FE1DF325540038855D /* Build configuration list for PBXNativeTarget "TracNghiemUITests" */;
+			buildPhases = (
+				BF4B33EB1DF325540038855D /* Sources */,
+				BF4B33EC1DF325540038855D /* Frameworks */,
+				BF4B33ED1DF325540038855D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF4B33F11DF325540038855D /* PBXTargetDependency */,
+			);
+			name = TracNghiemUITests;
+			productName = TracNghiemUITests;
+			productReference = BF4B33EF1DF325540038855D /* TracNghiemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF4B33C41DF325540038855D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Phu;
+				TargetAttributes = {
+					BF4B33CB1DF325540038855D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF4B33E31DF325540038855D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF4B33CB1DF325540038855D;
+					};
+					BF4B33EE1DF325540038855D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF4B33CB1DF325540038855D;
+					};
+				};
+			};
+			buildConfigurationList = BF4B33C71DF325540038855D /* Build configuration list for PBXProject "TracNghiem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF4B33C31DF325540038855D;
+			productRefGroup = BF4B33CD1DF325540038855D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF4B33CB1DF325540038855D /* TracNghiem */,
+				BF4B33E31DF325540038855D /* TracNghiemTests */,
+				BF4B33EE1DF325540038855D /* TracNghiemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF4B33CA1DF325540038855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B340B1DF326110038855D /* Blue-button.png in Resources */,
+				BF4B340F1DF326110038855D /* unchecked.png in Resources */,
+				BF4B33D21DF325540038855D /* GameScene.sks in Resources */,
+				BF4B340E1DF326110038855D /* Logo.jpeg in Resources */,
+				BF4B33DE1DF325540038855D /* LaunchScreen.storyboard in Resources */,
+				BF4B34091DF326110038855D /* Apple.jpg in Resources */,
+				BF4B340C1DF326110038855D /* cat.jpeg in Resources */,
+				BF4B340A1DF326110038855D /* BackGround.jpg in Resources */,
+				BF4B33DB1DF325540038855D /* Assets.xcassets in Resources */,
+				BF4B33D91DF325540038855D /* Main.storyboard in Resources */,
+				BF4B340D1DF326110038855D /* checked.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4B33E21DF325540038855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4B33ED1DF325540038855D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF4B33C81DF325540038855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B33D41DF325540038855D /* GameScene.swift in Sources */,
+				BF4B33D61DF325540038855D /* GameViewController.swift in Sources */,
+				BF4B33D01DF325540038855D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4B33E01DF325540038855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B33E91DF325540038855D /* TracNghiemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4B33EB1DF325540038855D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B33F41DF325540038855D /* TracNghiemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF4B33E61DF325540038855D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF4B33CB1DF325540038855D /* TracNghiem */;
+			targetProxy = BF4B33E51DF325540038855D /* PBXContainerItemProxy */;
+		};
+		BF4B33F11DF325540038855D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF4B33CB1DF325540038855D /* TracNghiem */;
+			targetProxy = BF4B33F01DF325540038855D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF4B33D71DF325540038855D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4B33D81DF325540038855D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF4B33DC1DF325540038855D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4B33DD1DF325540038855D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF4B33F61DF325540038855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF4B33F71DF325540038855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4B33F91DF325540038855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TracNghiem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phh.TracNghiem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF4B33FA1DF325540038855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TracNghiem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phh.TracNghiem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF4B33FC1DF325540038855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TracNghiemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phh.TracNghiemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracNghiem.app/TracNghiem";
+			};
+			name = Debug;
+		};
+		BF4B33FD1DF325540038855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TracNghiemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phh.TracNghiemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracNghiem.app/TracNghiem";
+			};
+			name = Release;
+		};
+		BF4B33FF1DF325540038855D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TracNghiemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phh.TracNghiemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TracNghiem;
+			};
+			name = Debug;
+		};
+		BF4B34001DF325540038855D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TracNghiemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phh.TracNghiemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TracNghiem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF4B33C71DF325540038855D /* Build configuration list for PBXProject "TracNghiem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4B33F61DF325540038855D /* Debug */,
+				BF4B33F71DF325540038855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4B33F81DF325540038855D /* Build configuration list for PBXNativeTarget "TracNghiem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4B33F91DF325540038855D /* Debug */,
+				BF4B33FA1DF325540038855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF4B33FB1DF325540038855D /* Build configuration list for PBXNativeTarget "TracNghiemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4B33FC1DF325540038855D /* Debug */,
+				BF4B33FD1DF325540038855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF4B33FE1DF325540038855D /* Build configuration list for PBXNativeTarget "TracNghiemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4B33FF1DF325540038855D /* Debug */,
+				BF4B34001DF325540038855D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF4B33C41DF325540038855D /* Project object */;
+}
